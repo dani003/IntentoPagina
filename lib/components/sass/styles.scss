@@ -1,0 +1,12 @@
+@import './node_modules/bootstrap/scss/bootstrap';
+
+$mycolor: red;
+
+body {
+    background: $mycolor;
+}
+
+.test{
+  border: 1px solid red;
+  box-sizing: border-box;
+}
