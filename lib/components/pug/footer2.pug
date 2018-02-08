@@ -1,0 +1,34 @@
+.container-fluid
+  .row
+    .col-sm-4.col-md-4.col-lg-4
+      p hola
+      div.containerreg
+        form(action="/action_page.php")
+          label(for="fname") First Name
+          inpu(type="text"  name="firstname" placeholder="Your name..")
+            
+          label(for="lname") Last Name
+          input(type="text"  name="lastname" placeholder="Your last name..")
+          
+          label(for="country") Country
+          
+          select(id="country" name="country")
+            option(value="australia") Australia
+            option(value="canada") Canada
+            option(value="usa") USA
+            option(value="chile") Chile
+            option(value="UK") UK
+            
+          label(for="subject") Subject
+          textarea( name="subject" placeholder="Write something.." style="height:200px")
+          
+          input(type="submit" value="Submit")
+    .col-sm-4.col-md-4.col-lg-4
+      p hola
+    .col-sm-4.col-md-4.col-lg-4
+      p hola sdfsdf
+      a(href="#" class="fa fa-facebook")
+      a(href="#" class="fa fa-twitter")
+      a(href="#" class="fa fa-linkedin")
+      a(href="#" class="fa fa-youtube")
+      a(href="#" class="fa fa-instagram")

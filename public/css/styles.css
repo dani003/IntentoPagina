@@ -6026,10 +6026,6 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #ddd !important; } }
 
-.test {
-  border: 1px solid red;
-  box-sizing: border-box; }
-
 #container-web {
   position: absolute;
   /*Posicionamiento absoluto*/
@@ -6046,6 +6042,10 @@ a.text-dark:hover, a.text-dark:focus {
   text-align: left;
   background: #ffffff; }
 
+.test {
+  border: 1px solid red;
+  box-sizing: border-box; }
+
 .container-centrado {
   display: block;
   margin: auto;
@@ -6057,7 +6057,7 @@ a.text-dark:hover, a.text-dark:focus {
   align-items: center;
   justify-content: center; }
 
-.redondo50 {
+.foto-perfil {
   border-radius: 50%;
   width: 96px;
   height: 96px;
@@ -6069,46 +6069,12 @@ a.text-dark:hover, a.text-dark:focus {
   background-size: auto;
   background-repeat: no-repeat; }
 
-@media all and (transform-3d), (-webkit-transform-3d) {
-  .carousel-fade .carousel-inner > .item.next,
-  .carousel-fade .carousel-inner > .item.active.right {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); }
-  .carousel-fade .carousel-inner > .item.prev,
-  .carousel-fade .carousel-inner > .item.active.left {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); }
-  .carousel-fade .carousel-inner > .item.next.left,
-  .carousel-fade .carousel-inner > .item.prev.right,
-  .carousel-fade .carousel-inner > .item.active {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); } }
+.foto-prueba {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px; }
 
-.carousel-fade .carousel-inner .item {
-  opacity: 0;
-  transition-property: opacity;
-  overflow: hidden; }
-
-.item.active img {
-  transition: transform 5000ms linear 0s;
-  /* This should be based on your carousel setting. For bs, it should be 5second*/
-  transform: scale(1.05, 1.05); }
-
-.carousel-fade .carousel-inner .active {
-  opacity: 1; }
-
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  left: 0;
-  opacity: 0;
-  z-index: 1; }
-
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
-  opacity: 1; }
-
-.carousel-fade .carousel-control {
-  z-index: 2; }
+.rowfotback {
+  color: white;
+  background-image: url("http://www.ironhorsevineyards.com/assets/client/Image/bubblesocean.jpg");
+  background-size: auto; }
