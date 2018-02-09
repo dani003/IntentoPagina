@@ -5,7 +5,8 @@
       div.containerreg
         form(action="/action_page.php")
           label(for="fname") First Name
-          inpu(type="text"  name="firstname" placeholder="Your name..")
+
+          input(type="text"  name="firstname" placeholder="Your name..")
             
           label(for="lname") Last Name
           input(type="text"  name="lastname" placeholder="Your last name..")
@@ -20,6 +21,7 @@
             option(value="UK") UK
             
           label(for="subject") Subject
+          input(type="text"  name="lastname" placeholder="Subject..")
           textarea( name="subject" placeholder="Write something.." style="height:200px")
           
           input(type="submit" value="Submit")
